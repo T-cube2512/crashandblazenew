@@ -309,30 +309,30 @@ public class carController : MonoBehaviour{
         
     }
 
-    void OnGUI(){
+    // void OnGUI(){
 
-        float pos = 50;
+    //     float pos = 50;
 
-        GUI.Label(new Rect(20, pos, 200, 20),"currentGear: " + gearNum.ToString("0"));
-        pos+=25f;
-        GUI.HorizontalSlider(new Rect(20, pos, 200, 20), engineRPM,0,maxRPM);
-        pos+=25f;
+    //     GUI.Label(new Rect(20, pos, 200, 20),"currentGear: " + gearNum.ToString("0"));
+    //     pos+=25f;
+    //     GUI.HorizontalSlider(new Rect(20, pos, 200, 20), engineRPM,0,maxRPM);
+    //     pos+=25f;
 
-        GUI.Label(new Rect(20, pos, 200, 20),"Torque: " + totalPower.ToString("0"));
-        pos+=25f;
-        GUI.Label(new Rect(20, pos, 200, 20),"KPH: " + KPH.ToString("0"));
-        pos+=25f;
-        GUI.HorizontalSlider(new Rect(20, pos, 200, 20), engineLoad, 0.0F, 1.0F);
-        pos+=25f;
-        GUI.Label(new Rect(20, pos, 200, 20),"brakes: " + brakePower.ToString("0"));
-        pos+=25f;
-        GUI.Label(new Rect(20, pos, 200, 20),"currentVelocity: " + currentVelocity.ToString("0"));
-        pos+=25f;
-        GUI.Label(new Rect(20, pos, 200, 20),"lastFrameVelocity: " + lastFrameVelocity.ToString("0"));
-        pos+=25f;
-        GUI.Label(new Rect(20, pos, 200, 20),"Gforce: " + Gforce.ToString("0"));
-        pos+=25f;
+    //     GUI.Label(new Rect(20, pos, 200, 20),"Torque: " + totalPower.ToString("0"));
+    //     pos+=25f;
+    //     GUI.Label(new Rect(20, pos, 200, 20),"KPH: " + KPH.ToString("0"));
+    //     pos+=25f;
+    //     GUI.HorizontalSlider(new Rect(20, pos, 200, 20), engineLoad, 0.0F, 1.0F);
+    //     pos+=25f;
+    //     GUI.Label(new Rect(20, pos, 200, 20),"brakes: " + brakePower.ToString("0"));
+    //     pos+=25f;
+    //     GUI.Label(new Rect(20, pos, 200, 20),"currentVelocity: " + currentVelocity.ToString("0"));
+    //     pos+=25f;
+    //     GUI.Label(new Rect(20, pos, 200, 20),"lastFrameVelocity: " + lastFrameVelocity.ToString("0"));
+    //     pos+=25f;
+    //     GUI.Label(new Rect(20, pos, 200, 20),"Gforce: " + Gforce.ToString("0"));
+    //     pos+=25f;
         
-    }
+    // }
 
 }

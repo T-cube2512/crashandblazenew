@@ -97,14 +97,14 @@ public class wheelsManager : MonoBehaviour
 
     }
     
-    void OnGUI(){
-        float pos = 50;
-        GUI.Label(new Rect(300, pos, 200, 20),"forward: " + forwardSlip[0].ToString("0.0")  +  forwardSlip[1].ToString("0.0") + forwardSlip[2].ToString("0.0") + forwardSlip[3].ToString("0.0"));
-        pos+=25f;
-        GUI.Label(new Rect(300, pos, 200, 20),"sideways: " + sidewaysSlip[0].ToString("0.0")  +  sidewaysSlip[1].ToString("0.0") + sidewaysSlip[2].ToString("0.0") + sidewaysSlip[3].ToString("0.0"));
-        pos+=25f;
-        GUI.Label(new Rect(300, pos, 200, 20),"slip: " + overallSlip[0].ToString("0.0")  +  overallSlip[1].ToString("0.0") + overallSlip[2].ToString("0.0") + overallSlip[3].ToString("0.0"));
-        pos+=25f;
-    }
+    // void OnGUI(){
+    //     float pos = 50;
+    //     GUI.Label(new Rect(300, pos, 200, 20),"forward: " + forwardSlip[0].ToString("0.0")  +  forwardSlip[1].ToString("0.0") + forwardSlip[2].ToString("0.0") + forwardSlip[3].ToString("0.0"));
+    //     pos+=25f;
+    //     GUI.Label(new Rect(300, pos, 200, 20),"sideways: " + sidewaysSlip[0].ToString("0.0")  +  sidewaysSlip[1].ToString("0.0") + sidewaysSlip[2].ToString("0.0") + sidewaysSlip[3].ToString("0.0"));
+    //     pos+=25f;
+    //     GUI.Label(new Rect(300, pos, 200, 20),"slip: " + overallSlip[0].ToString("0.0")  +  overallSlip[1].ToString("0.0") + overallSlip[2].ToString("0.0") + overallSlip[3].ToString("0.0"));
+    //     pos+=25f;
+    // }
 
 }
