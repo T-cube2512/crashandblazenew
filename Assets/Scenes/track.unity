@@ -934,6 +934,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4736458556593968276, guid: d291a2b4923b37644bb807840d46432b,
+        type: 3}
+      propertyPath: tireGrip
+      value: 1.208
+      objectReference: {fileID: 0}
     - target: {fileID: 4736458556593968277, guid: d291a2b4923b37644bb807840d46432b,
         type: 3}
       propertyPath: joy
@@ -959,6 +964,26 @@ PrefabInstance:
       propertyPath: decel
       value: 
       objectReference: {fileID: 1427933787}
+    - target: {fileID: 4736458556593968278, guid: d291a2b4923b37644bb807840d46432b,
+        type: 3}
+      propertyPath: minRPM
+      value: 2000
+      objectReference: {fileID: 0}
+    - target: {fileID: 4736458556593968278, guid: d291a2b4923b37644bb807840d46432b,
+        type: 3}
+      propertyPath: torque
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4736458556593968278, guid: d291a2b4923b37644bb807840d46432b,
+        type: 3}
+      propertyPath: EngineSmoothTime
+      value: 0.346
+      objectReference: {fileID: 0}
+    - target: {fileID: 4736458556593968278, guid: d291a2b4923b37644bb807840d46432b,
+        type: 3}
+      propertyPath: gears.Array.size
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4736458556593968281, guid: d291a2b4923b37644bb807840d46432b,
         type: 3}
       propertyPath: m_LocalPosition.x
