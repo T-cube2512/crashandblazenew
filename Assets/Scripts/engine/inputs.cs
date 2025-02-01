@@ -33,17 +33,21 @@ public class inputs : MonoBehaviour{
     }
 
     public void keyboard () {
-        // vertical = accel.buttonInt - decel.buttonInt;
+        vertical = accel.buttonInt - decel.buttonInt;
 
-        // horizontal = joy.Horizontal;
-        // handbrake = brake.buttonPressed ;
-        // boosting = boost.buttonPressed;
+        horizontal = joy.Horizontal;
+        handbrake = brake.buttonPressed ; 
+        boosting = boost.buttonPressed;
 
+        if(brake.buttonPressed)
+        Debug.Log("Handbraked");
 
-        vertical = Input.GetAxis ("Vertical");
-        horizontal = Input.GetAxis ("Horizontal");
-        if (Input.GetKey (KeyCode.LeftShift)) boosting = true;
-        else boosting = false;
+        // vertical = Input.GetAxis ("Vertical");
+        // horizontal = Input.GetAxis ("Horizontal");
+        // if (Input.GetKey (KeyCode.LeftShift)) boosting = true;
+        // else boosting = false;
+
+        // handbrake = Input.GetKey(KeyCode.Space);
 
     }
 
